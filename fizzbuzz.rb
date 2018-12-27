@@ -4,8 +4,7 @@ require 'rspec'
 def fizzbuzz(int)
     if int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
-     if int % 3 == 0 && int % 5 == 0
-    "FizzBuzz"
+    
   elsif int % 3 == 0
 
     return "Fizz"
@@ -15,8 +14,7 @@ def fizzbuzz(int)
   elsif int % 15 == 0
 
      return "FizzBuzz"
-  elsif int % 4 == 0
-
+  elsif int % 3 !== 0 || int % 5 !== 0
     return "nil"
   end
 end
