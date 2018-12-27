@@ -14,7 +14,7 @@ def fizzbuzz(int)
   elsif int % 15 == 0
 
      return "FizzBuzz"
-  elsif int !% 3 == 0 || !% 5== 0 
+  elsif int % 3 !== 0 || int % 5 !== 0 
     return "nil"
   end
 end
