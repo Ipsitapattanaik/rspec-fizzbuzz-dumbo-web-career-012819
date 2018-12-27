@@ -4,13 +4,13 @@ def fizzbuzz(x)
   if int % 3 == 0
 
     return "Fizz"
-  elsif fizz_5 = fizzbuzz(5)
+  elsif int % 5 == 0
 
     return "Buzz"
-  elsif fizz_15 = fizzbuzz(15)
+  elsif int % 15 == 0
 
      return "FizzBuzz"
-  elsif fizz_4 = fizzbuzz(4)
+  elsif 
 
     return "nil"
   end
