@@ -6,12 +6,12 @@ def fizzbuzz
     return "Fizz"
   elsif fizz_5 = fizzbuzz(5)
 
-    puts "Buzz"
+    return "Buzz"
   elsif fizz_15 = fizzbuzz(15)
 
-     puts "FizzBuzz"
+     return "FizzBuzz"
   elsif fizz_4 = fizzbuzz(4)
 
-    puts "nil"
+    return "nil"
   end
 end
