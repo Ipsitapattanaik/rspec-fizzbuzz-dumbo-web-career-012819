@@ -2,7 +2,9 @@
 # See README.md for instructions on how to do this
 require 'rspec'
 def fizzbuzz(int)
-  if int % 3 == 0
+    if int % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
+  elsif int % 3 == 0
 
     return "Fizz"
   elsif int % 5 == 0
